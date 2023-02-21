@@ -2,8 +2,6 @@
   hosts: all
   tasks:
     - name: Print Hello
-      ansible.builtin.debug:
-        msg: Hello Universe
-
-
+      ansible.buitin.debug:
+        msg: Hello World
 
