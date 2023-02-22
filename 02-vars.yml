@@ -13,7 +13,6 @@
   connection: local
   vars_files:
     - var.yml
-    URL: file.example.com
   tasks:
     - name: Access a variable
       ansible.builtin.debug:
