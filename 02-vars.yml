@@ -1,5 +1,5 @@
 - name: Declare Variable at Play level
-  hosts: local
+  hosts: all
   connection: local
   vars:
     URL: play.example.com
