@@ -29,12 +29,13 @@
       vars:
         URL: task.example.com
 
-- name: Declare variable from inventory file
+
+- name: Access a fact
   hosts: all
   connection: local
   tasks:
-    - name: Access variable
+    - name: Access fact
       ansible.builtin.debug:
-        msg: URL == {{URL}}
+        msg: Ansible Host Name == {{ansible_fqdn}}
 
 
