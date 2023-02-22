@@ -1,4 +1,4 @@
-- name: Declare Variable at Play level
+ - name: Declare variable at Play level
   hosts: all
   connection: local
   vars:
